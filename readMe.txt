@@ -1,11 +1,13 @@
 This is the code of article "Predicting Parkinson's Disease Genes Based on Node2vec and Autoencoder".
 
+**This repo is moved to [23AIBox](https://github.com/23AIBox/23AIBox-N2A-SVM)**
+
 "interactome.edgelist" file stores the protein protein interaction network. There are two columns, and each column represents the ID of the gene.
 "clinvar_result.txt" is from https://www.ncbi.nlm.nih.gov/clinvar/, which contains the known gene names related to Parkinson's disease.
 "GeneID_Name" file contains the correspondence between gene names and IDs. The first column is the gene ID and the second column is the gene name.
 
 you can run the code in the following oreder:
-proccessData.py-->node2vec-master-change/main.py-->AutoencoderÖÐ/MyAE.py-->svm/svm.py
+proccessData.py-->node2vec-master-change/main.py-->AutoencoderÃ–Ã/MyAE.py-->svm/svm.py
 
 If you want to use the above code please use the citation below.
 @ARTICLE{10.3389/fgene.2019.00226,
@@ -33,5 +35,5 @@ ABSTRACT={Identifying genes associated with Parkinson's disease plays an extreme
 
 
 you can run the code in the following oreder:
-proccessData.py-->node2vec-master-change/main.py-->AutoencoderÖÐ/MyAE.py-->svm/svm.py
+proccessData.py-->node2vec-master-change/main.py-->AutoencoderÃ–Ã/MyAE.py-->svm/svm.py
 
